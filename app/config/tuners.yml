@@ -13,12 +13,12 @@
 - name: PX4-T01
   types:
     - GR
-  command: recisdb tune --device /dev/px4video2 --channel <channel> -
+  command: recisdb tune --device /dev/px4video2 --channel T<channel> -
   isDisabled: false
 - name: PX4-T02
   types:
     - GR
-  command: recisdb tune --device /dev/px4video3 --channel <channel> -
+  command: recisdb tune --device /dev/px4video3 --channel T<channel> -
   isDisabled: false
 - name: PX4-S03
   types:
@@ -35,12 +35,12 @@
 - name: PX4-T03
   types:
     - GR
-  command: recisdb tune --device /dev/px4video6 --channel <channel> -
+  command: recisdb tune --device /dev/px4video6 --channel T<channel> -
   isDisabled: false
 - name: PX4-T04
   types:
     - GR
-  command: recisdb tune --device /dev/px4video7 --channel <channel> -
+  command: recisdb tune --device /dev/px4video7 --channel T<channel> -
   isDisabled: false
 - name: PX4-S05
   types:
@@ -57,12 +57,12 @@
 - name: PX4-T05
   types:
     - GR
-  command: recisdb tune --device /dev/px4video10 --channel <channel> -
+  command: recisdb tune --device /dev/px4video10 --channel T<channel> -
   isDisabled: false
 - name: PX4-T06
   types:
     - GR
-  command: recisdb tune --device /dev/px4video11 --channel <channel> -
+  command: recisdb tune --device /dev/px4video11 --channel T<channel> -
   isDisabled: false
 - name: PX4-S07
   types:
@@ -79,10 +79,10 @@
 - name: PX4-T07
   types:
     - GR
-  command: recisdb tune --device /dev/px4video14 --channel <channel> -
+  command: recisdb tune --device /dev/px4video14 --channel T<channel> -
   isDisabled: false
 - name: PX4-T08
   types:
     - GR
-  command: recisdb tune --device /dev/px4video15 --channel <channel> -
+  command: recisdb tune --device /dev/px4video15 --channel T<channel> -
   isDisabled: false

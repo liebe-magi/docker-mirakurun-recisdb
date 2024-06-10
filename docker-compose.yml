@@ -39,12 +39,6 @@ services:
       #   sudo mkdir -p /opt/mirakurun/run /opt/mirakurun/opt /opt/mirakurun/config /opt/mirakurun/data
       # you can change to any location if required.
       - type: bind
-        source: ./app/run/
-        target: /var/run/
-      - type: bind
-        source: ./app/opt/
-        target: /opt/
-      - type: bind
         source: ./app/config/
         target: /app-config/
       - type: bind
