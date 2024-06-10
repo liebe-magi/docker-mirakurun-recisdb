@@ -1,0 +1,7 @@
+# app
+/app/data/*
+!/app/data/.gitkeep
+/app/opt/*
+!/app/opt/.gitkeep
+/app/run/*
+!/app/run/.gitkeep

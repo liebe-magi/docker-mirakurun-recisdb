@@ -1,0 +1,88 @@
+- name: PX4-S01
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video0 --channel <channel> -
+  isDisabled: false
+- name: PX4-S02
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video1 --channel <channel> -
+  isDisabled: false
+- name: PX4-T01
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video2 --channel <channel> -
+  isDisabled: false
+- name: PX4-T02
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video3 --channel <channel> -
+  isDisabled: false
+- name: PX4-S03
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video4 --channel <channel> -
+  isDisabled: false
+- name: PX4-S04
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video5 --channel <channel> -
+  isDisabled: false
+- name: PX4-T03
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video6 --channel <channel> -
+  isDisabled: false
+- name: PX4-T04
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video7 --channel <channel> -
+  isDisabled: false
+- name: PX4-S05
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video8 --channel <channel> -
+  isDisabled: false
+- name: PX4-S06
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video9 --channel <channel> -
+  isDisabled: false
+- name: PX4-T05
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video10 --channel <channel> -
+  isDisabled: false
+- name: PX4-T06
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video11 --channel <channel> -
+  isDisabled: false
+- name: PX4-S07
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video12 --channel <channel> -
+  isDisabled: false
+- name: PX4-S08
+  types:
+    - BS
+    - CS
+  command: recisdb tune --device /dev/px4video13 --channel <channel> -
+  isDisabled: false
+- name: PX4-T07
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video14 --channel <channel> -
+  isDisabled: false
+- name: PX4-T08
+  types:
+    - GR
+  command: recisdb tune --device /dev/px4video15 --channel <channel> -
+  isDisabled: false
