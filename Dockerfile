@@ -1,4 +1,4 @@
-FROM chinachu/mirakurun as builder
+FROM chinachu/mirakurun:3.9.0-rc.4 as builder
 
 # Install dependencies
 RUN apt update && \
@@ -21,7 +21,7 @@ RUN git clone --recursive https://github.com/kazuki0824/recisdb-rs.git && \
     cd recisdb-rs && \
     ~/.cargo/bin/cargo build -F dvb --release
 
-FROM chinachu/mirakurun as runner
+FROM chinachu/mirakurun:3.9.0-rc.4 as runner
 
 # Copy recisdb-rs
 COPY --from=builder /app/recisdb-rs/target/release/recisdb /usr/local/bin/recisdb
